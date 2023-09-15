@@ -4,7 +4,7 @@
 * tokenName: A public variable representing the name of the token.
 * tokenAbbrv: A public variable representing the abbreviation or symbol of the token.
 * totalSupply: A public variable representing the total supply of the token.
-balances: A mapping that stores the balance of each address holding the tokens.
+* balances: A mapping that stores the balance of each address holding the tokens.
 ### Constructor
 The constructor initializes the contract with the provided token name, abbreviation, and initial supply.
 It sets the totalSupply and assigns the entire initial supply to the address that deploys the contract.
