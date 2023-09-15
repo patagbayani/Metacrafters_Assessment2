@@ -16,8 +16,8 @@ burn(address _from, uint256 _value) public: This function allows for the destruc
 It verifies that the sender has sufficient tokens to burn (balance is greater than or equal to the specified value).
 It deducts the specified value from the total supply and the balance of the sender's address.
 ### Usage
-Deployment: Deploy the MyToken contract, providing the desired token name, abbreviation, and initial supply.
-Minting: Use the mint function to create new tokens and assign them to specific addresses.
-Burning: Use the burn function to destroy tokens, reducing the total supply and the balance of a specified address.
+* Deployment: Deploy the MyToken contract, providing the desired token name, abbreviation, and initial supply.
+* Minting: Use the mint function to create new tokens and assign them to specific addresses.
+* Burning: Use the burn function to destroy tokens, reducing the total supply and the balance of a specified address.
 ### Author
 Patrick Nicolae M. Agbayani
