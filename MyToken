@@ -22,12 +22,8 @@ contract MyToken {
     }
 
     function burn(address _from, uint256 _value) public {
-    require(_value > 0, "Burn value must be greater than 0");
-    
-    uint256 fromBalance = balances[_from];
-    require(fromBalance >= _value, "Insufficient balance to burn");
-    
-    totalSupply -= _value;
-    balances[_from] -= _value;
+        require(balances[_from] >= _value, "Insufficient balance");
+        totalSupply -= _value;
+        balances[_from] -= _value;
     }
 }
